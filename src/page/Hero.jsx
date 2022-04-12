@@ -1,13 +1,13 @@
 import React from "react";
 import img from "../image/00.svg";
 import {UilPlay} from "@iconscout/react-unicons";
-import "../App.css";
-import img0 from "../image/blob.svg";
+
+
 
 const Hero = () => {
   return (
-      <div className={' md:grid md:grid-cols-2 relative md:m-8'}>
-        <div className="  space-y-5 mt-11 ">
+      <div className={' md:grid md:grid-cols-2 '}>
+        <div className="  space-y-5 mt-11 m ">
           <h1 className={'text-center sm:text-6xl ml-6 font-bold sm:mt-8 text-2xl'}>
             Life is short <br /> and the world <br /> is wide!
           </h1>
@@ -38,7 +38,7 @@ const Hero = () => {
         </div>
         
         <div className="right">
-          <img className="img1  " src={img0} alt="" />
+        
           <img className="img0  " src={img} alt="" />
 
           <div className={' top-[600px] left-[-80px]   bg-amber-400  '}></div>

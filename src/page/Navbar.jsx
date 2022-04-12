@@ -1,4 +1,5 @@
 import React from 'react'
+import Toggle from '../Toggle/Toggle'
 
 export default function Menu({ fixed }) {
   return (
@@ -22,7 +23,8 @@ export default function Menu({ fixed }) {
               Client
             </a>
           </nav>
-          <button className="inline-flex items-center text-white text-2xl  bg-green-700 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">
+          <Toggle/>
+          <button className="inline-flex items-center text-white text-2xl  bg-green-700 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded mt-4 md:mt-0">
             Contact Us
           </button>
         </div>
