@@ -1,0 +1,20 @@
+.right {
+    flex: 1;
+    position: relative;
+}
+
+.right>* {
+    position: absolute;
+    z-index: 1;
+}
+
+.img0 {
+    transform: scale(1);
+    top: 4rem;
+    left: 0rem;
+}
+
+.img1 {
+    transform: scale(1.2);
+    top: 25%;
+}
