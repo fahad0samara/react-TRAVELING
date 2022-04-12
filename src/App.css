@@ -1,11 +1,9 @@
 .right {
-    flex: 1;
     position: relative;
 }
 
 .right>* {
     position: absolute;
-    z-index: 1;
 }
 
 .img0 {

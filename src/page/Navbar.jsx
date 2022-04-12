@@ -6,9 +6,9 @@ export default function Menu({ fixed }) {
       <header className=" body-font">
         <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
           <a className="flex title-font font-medium items-center  text-orange-500 mb-4 md:mb-0">
-            <span class="ml-3 text-xl ">TRAVELING</span>
+            <span class="ml-3 text-2xl ">TRAVELING</span>
           </a>
-          <nav className="md:ml-auto md:mr-auto text-2xl flex flex-wrap items-center text-base justify-center">
+          <nav className="md:ml-auto md:mr-auto text-2xl font-bold flex flex-wrap items-center justify-center">
             <a className="mr-5 hover:text-orange-500 hover:cursor-pointer">
               Home
             </a>
