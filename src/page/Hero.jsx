@@ -7,7 +7,7 @@ import {UilPlay} from "@iconscout/react-unicons";
 const Hero = () => {
   return (
       <div className={' md:grid md:grid-cols-2 '}>
-        <div className="  space-y-5 mt-11 m ">
+        <div className="  space-y-5 mt-11 ">
           <h1 className={'text-center sm:text-6xl ml-6 font-bold sm:mt-8 text-2xl'}>
             Life is short <br /> and the world <br /> is wide!
           </h1>
@@ -18,14 +18,14 @@ const Hero = () => {
           <div className=" ml-8  flex  text-center items-center space-x-10">
             <button
               type="button"
-              class="text-white bg-gradient-to-r from-green-600 via-green-500 to-green-600 hover:bg-gradient-to-br   font-medium rounded-lg  sm:text-2xl sm:px-7 py-3 text-center mr-2 mb-2"
+              className="text-white bg-gradient-to-r from-green-600 via-green-500 to-green-600 hover:bg-gradient-to-br   font-medium rounded-lg  sm:text-2xl sm:px-7 py-3 text-center mr-2 mb-2"
             >
               Explore
             </button>
             <button className="text-2xl font-bold "></button>
             <button
               type="button"
-              class={'text-green-500  font-black  sm:text-3xl rounded-lg   text-center inline-flex items-center hover:cursor-pointer  '}
+              className={'text-green-500  font-black  sm:text-3xl rounded-lg   text-center inline-flex items-center hover:cursor-pointer  '}
             >
               <UilPlay
                 color="green"

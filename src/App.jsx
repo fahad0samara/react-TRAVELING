@@ -8,6 +8,8 @@ import { useContext } from "react";
 import { themeContext } from "./Context";
 import Hero2 from './page/Hero2';
 import Hero4 from './page/Hero4';
+import Hero5 from './page/Hero5';
+import Footer from './page/Footer';
 function App() {
  const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
@@ -25,7 +27,9 @@ function App() {
       <Hero0 />
       <Swiper />
       <Hero2 />
-      <Hero4/>
+      <Hero4 />
+      <Hero5 />
+      <Footer/>
     </div>
   )
 }

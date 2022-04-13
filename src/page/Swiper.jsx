@@ -47,17 +47,17 @@ export default function App() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+          <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
             <img
-              class="lg:h-48 md:h-36 w-full object-cover object-center"
+              className="lg:h-48 md:h-36 w-full object-cover object-center"
               src={img}
               alt="blog"
             />
-            <div class="p-6">
-              <h1 class="title-font text-lg font-medium ">London</h1>
+            <div className="p-6">
+              <h1 className="title-font text-lg font-medium ">London</h1>
 
-              <div class="flex items-center flex-wrap ">
-                <a class=" text-yellow-400 text-2xl inline-flex items-center md:mb-2 lg:mb-0">
+              <div className="flex items-center flex-wrap ">
+                <a className=" text-yellow-400 text-2xl inline-flex items-center md:mb-2 lg:mb-0">
                   230$
                 </a>
                 <span
@@ -66,7 +66,7 @@ export default function App() {
                   }
                 >
                   <svg
-                    class="w-4 h-4 mr-1"
+                    className="w-4 h-4 mr-1"
                     stroke="currentColor"
                     stroke-width="2"
                     fill="none"
@@ -84,17 +84,17 @@ export default function App() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+          <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
             <img
-              class="lg:h-48 md:h-36 w-full object-cover object-center"
+              className="lg:h-48 md:h-36 w-full object-cover object-center"
               src={img0}
               alt="blog"
             />
-            <div class="p-6">
-              <h1 class="title-font text-lg font-medium ">Auburn</h1>
+            <div className="p-6">
+              <h1 className="title-font text-lg font-medium ">Auburn</h1>
 
-              <div class="flex items-center flex-wrap ">
-                <a class=" text-yellow-400 text-2xl inline-flex items-center md:mb-2 lg:mb-0">
+              <div className="flex items-center flex-wrap ">
+                <a className=" text-yellow-400 text-2xl inline-flex items-center md:mb-2 lg:mb-0">
                   190$
                 </a>
                 <span
@@ -103,7 +103,7 @@ export default function App() {
                   }
                 >
                   <svg
-                    class="w-4 h-4 mr-1"
+                    className="w-4 h-4 mr-1"
                     stroke="currentColor"
                     stroke-width="2"
                     fill="none"
@@ -121,17 +121,17 @@ export default function App() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+          <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
             <img
-              class="lg:h-48 md:h-36 w-full object-cover object-center"
+              className="lg:h-48 md:h-36 w-full object-cover object-center"
               src={img1}
               alt="blog"
             />
-            <div class="p-6">
-              <h1 class="title-font text-lg font-medium ">Anniston</h1>
+            <div className="p-6">
+              <h1 className="title-font text-lg font-medium ">Anniston</h1>
 
-              <div class="flex items-center flex-wrap ">
-                <a class=" text-yellow-400 text-2xl inline-flex items-center md:mb-2 lg:mb-0">
+              <div className="flex items-center flex-wrap ">
+                <a className=" text-yellow-400 text-2xl inline-flex items-center md:mb-2 lg:mb-0">
                   200$
                 </a>
                 <span
@@ -140,7 +140,7 @@ export default function App() {
                   }
                 >
                   <svg
-                    class="w-4 h-4 mr-1"
+                    className="w-4 h-4 mr-1"
                     stroke="currentColor"
                     stroke-width="2"
                     fill="none"
@@ -158,17 +158,17 @@ export default function App() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+          <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
             <img
-              class="lg:h-48 md:h-36 w-full object-cover object-center"
+              className="lg:h-48 md:h-36 w-full object-cover object-center"
               src={img2}
               alt="blog"
             />
-            <div class="p-6">
-              <h1 class="title-font text-lg font-medium ">Enterprise</h1>
+            <div className="p-6">
+              <h1 className="title-font text-lg font-medium ">Enterprise</h1>
 
-              <div class="flex items-center flex-wrap ">
-                <a class=" text-yellow-400 text-2xl inline-flex items-center md:mb-2 lg:mb-0">
+              <div className="flex items-center flex-wrap ">
+                <a className=" text-yellow-400 text-2xl inline-flex items-center md:mb-2 lg:mb-0">
                   400$
                 </a>
                 <span
@@ -177,7 +177,7 @@ export default function App() {
                   }
                 >
                   <svg
-                    class="w-4 h-4 mr-1"
+                    className="w-4 h-4 mr-1"
                     stroke="currentColor"
                     stroke-width="2"
                     fill="none"
@@ -195,17 +195,17 @@ export default function App() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+          <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
             <img
-              class="lg:h-48 md:h-36 w-full object-cover object-center"
+              className="lg:h-48 md:h-36 w-full object-cover object-center"
               src={img3}
               alt="blog"
             />
-            <div class="p-6">
-              <h1 class="title-font text-lg font-medium ">Demopolis</h1>
+            <div className="p-6">
+              <h1 className="title-font text-lg font-medium ">Demopolis</h1>
 
-              <div class="flex items-center flex-wrap ">
-                <a class=" text-yellow-400 text-2xl inline-flex items-center md:mb-2 lg:mb-0">
+              <div className="flex items-center flex-wrap ">
+                <a className=" text-yellow-400 text-2xl inline-flex items-center md:mb-2 lg:mb-0">
                   80$
                 </a>
                 <span
@@ -214,7 +214,7 @@ export default function App() {
                   }
                 >
                   <svg
-                    class="w-4 h-4 mr-1"
+                    className="w-4 h-4 mr-1"
                     stroke="currentColor"
                     stroke-width="2"
                     fill="none"
@@ -232,17 +232,17 @@ export default function App() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+          <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
             <img
-              class="lg:h-48 md:h-36 w-full object-cover object-center"
+              className="lg:h-48 md:h-36 w-full object-cover object-center"
               src={img4}
               alt="blog"
             />
-            <div class="p-6">
-              <h1 class="title-font text-lg font-medium ">Decatur</h1>
+            <div className="p-6">
+              <h1 className="title-font text-lg font-medium ">Decatur</h1>
 
-              <div class="flex items-center flex-wrap ">
-                <a class=" text-yellow-400 text-2xl inline-flex items-center md:mb-2 lg:mb-0">
+              <div className="flex items-center flex-wrap ">
+                <a className=" text-yellow-400 text-2xl inline-flex items-center md:mb-2 lg:mb-0">
                   200$
                 </a>
                 <span
@@ -251,7 +251,7 @@ export default function App() {
                   }
                 >
                   <svg
-                    class="w-4 h-4 mr-1"
+                    className="w-4 h-4 mr-1"
                     stroke="currentColor"
                     stroke-width="2"
                     fill="none"
@@ -269,17 +269,17 @@ export default function App() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+          <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
             <img
-              class="lg:h-48 md:h-36 w-full object-cover object-center"
+              className="lg:h-48 md:h-36 w-full object-cover object-center"
               src={img5}
               alt="blog"
             />
-            <div class="p-6">
-              <h1 class="title-font text-lg font-medium ">Decatur</h1>
+            <div className="p-6">
+              <h1 className="title-font text-lg font-medium ">Decatur</h1>
 
-              <div class="flex items-center flex-wrap ">
-                <a class=" text-yellow-400 text-2xl inline-flex items-center md:mb-2 lg:mb-0">
+              <div className="flex items-center flex-wrap ">
+                <a className=" text-yellow-400 text-2xl inline-flex items-center md:mb-2 lg:mb-0">
                   140$
                 </a>
                 <span
@@ -288,7 +288,7 @@ export default function App() {
                   }
                 >
                   <svg
-                    class="w-4 h-4 mr-1"
+                    className="w-4 h-4 mr-1"
                     stroke="currentColor"
                     stroke-width="2"
                     fill="none"
