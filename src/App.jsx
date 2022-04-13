@@ -1,7 +1,8 @@
 
 import NavBar from './page/Navbar'
-import './App.css'
+
 import Hero from './page/Hero'
+import Swiper from './page/Swiper'
 import Hero0 from './page/Hero0'
 import { useContext } from "react";
 import { themeContext } from "./Context";
@@ -19,7 +20,8 @@ function App() {
     >
       <NavBar />
       <Hero />
-      <Hero0/>
+      <Hero0 />
+      <Swiper/>
     </div>
   )
 }
